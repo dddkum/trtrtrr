@@ -1,0 +1,33 @@
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 50px 0;
+}
+
+.container form {
+width: 50%;
+}
+
+.container input,
+.container textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+}
+
+.container textarea {
+height: 150px;
+}
+
+.container button {
+background-color: #2196F3;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
